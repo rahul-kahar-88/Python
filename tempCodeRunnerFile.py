@@ -1,7 +1,7 @@
-a = int(input("enter first number a : "))
-b = int(input("enter second number b : "))
-c = a
-a = b
-b = c
-print("a = ",a)
-print("b = ",b)
+n = int(input("enter munber"))
+for i in range (n):
+    ch = 'A'
+    for j in range (n):
+        print(ch,end=' ')
+        ch = chr(ord(ch)+1)
+    print()

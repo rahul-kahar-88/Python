@@ -1,7 +1,8 @@
-n = int(input("enter munber"))
-for i in range (n):
-    ch = 'A'
-    for j in range (n):
-        print(ch,end=' ')
-        ch = chr(ord(ch)+1)
-    print()
+n = 10
+i = 1
+while i<=n:
+    if i==5:
+        pass
+    else:
+        print(i)
+    i=i+1

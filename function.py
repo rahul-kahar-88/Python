@@ -106,6 +106,8 @@
 
 
 
+# ===============================================================================================================================================================================
+
 
 # relation between argument and parameter
 
@@ -168,13 +170,13 @@
 
 
 
-def add (*n):
-    print(n)
-    print(type(n))
-    # sum=0
-    # for i in n:
-    #     for j in i:
-    #         sum=sum+j
-    # return sum
-x = add(*eval(input("enter any value : ")))
-print(x)
+# def add (*n):
+#     print(n)
+#     print(type(n))
+#     # sum=0
+#     # for i in n:
+#     #     for j in i:
+#     #         sum=sum+j
+#     # return sum
+# x = add(*eval(input("enter any value : ")))
+# print(x)

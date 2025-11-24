@@ -116,6 +116,7 @@
 # 3, variable length positional arg
 # 4, key-word arg
 # 5, 
+# 6, variable length key word args
 
 
 
@@ -180,3 +181,138 @@
 #     # return sum
 # x = add(*eval(input("enter any value : ")))
 # print(x)
+
+
+# ======================= 4, key word args ==========================
+
+
+# def ref (x,y,z):
+#     print(z)
+#     print(x)
+#     print(y)
+#     # print(x,y,z)
+# p=10
+# q=20
+# r=30
+# ref (z=p,y=q,x=r)
+
+
+
+# def ref (x=0,y=0,z=0):
+#     print(z)
+#     print(x)
+#     print(y)                              # isse error nhi aayega
+#     # print(x,y,z)
+# p=10
+# q=20
+# r=30
+# # ref (z=p,y=q,x=r) 
+# # ref (z=p) 
+# ref (z=p,y=q) 
+
+
+
+
+# =========================== 6, variable length key word args =================================
+
+
+# def fun_name(**kwargs):   #---- packing
+#     print(kwargs)
+#     print(type(kwargs))
+# # fun_name(x=10,y=20,z=30,p=2,q=5)
+# fun_name(**eval(input("enter any dict : ")))    #  ------------ unpacking
+
+
+
+
+
+# def fun_name(**kwargs):
+
+#     # for i in kwargs.keys():
+#     #     print(i)
+
+#     # for i in kwargs.values():
+#     #     print(i)
+
+#     for i,j in kwargs.items():
+#         print('key =' , i , 'value = ',j)
+
+# fun_name(x=10,y=20,z=30)
+
+
+
+
+
+# ================================= summary ================================================
+
+# def fun_name(x,y=0,*z,p,**q):
+#     print(x)
+#     print(y)
+#     print(z)
+#     print(p)
+#     print(q)
+# fun_name(10,20,30,40,50,p=5,r=2,s=1,t=3)
+
+
+
+
+# def fun_name(x,*z,y=0,p,**q):
+#     print(x)
+#     print(y)
+#     print(z)
+#     print(p)
+#     print(q)
+# fun_name(10,20,30,40,50,p=5,r=2,s=1,t=3)
+
+
+
+
+# def fun_name(x,p,*z,y=0,**q):
+#     print(x)
+#     print(y)                                              # --- -- error aata hai isme 
+#     print(z)
+#     print(p)
+#     print(q)
+# fun_name(10,p=5,20,30,40,50,r=2,s=1,t=3)
+
+
+
+
+
+
+
+
+
+
+# def natural_number(n):
+#     for i in range(1,n+1):
+#         print(i)
+# n=int(input("enter any value : "))
+# natural_number(n)
+
+
+
+
+# def natural_number(n):
+#     sum=0
+#     for i in range(1,n+1):
+#         sum=sum+i
+#     print(sum)
+# n=int(input("enter any value : "))
+# natural_number(n)
+
+
+
+
+def natural_number(n):
+    count = 0
+    for i in range(1,n+1):
+        if(n%i==0):
+            count+=1
+        print("prime number")
+        pass
+    else:
+        print("not a prime ")
+        pass
+n=int(input("enter any value : "))
+natural_number(n)

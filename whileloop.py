@@ -50,3 +50,20 @@
 #     print(f'given number {p} is armstrong')
 # else:
 #     print(f'given number {p} is not armstrong')
+
+
+
+
+
+
+
+while(True):
+    print("1.Add\n 2.Sub\n 3.Div\n 4.Mul\n 5.Exit")
+    n=int(input("enter any number"))
+    if n in (1,2,3,4,5):
+        if n in (1,2,3,4):
+            pass
+        else:
+           break
+    else:
+        print("please enter valid choice")

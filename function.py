@@ -304,15 +304,17 @@
 
 
 
-def natural_number(n):
-    count = 0
-    for i in range(1,n+1):
-        if(n%i==0):
-            count+=1
-        print("prime number")
-        pass
-    else:
-        print("not a prime ")
-        pass
-n=int(input("enter any value : "))
-natural_number(n)
+
+
+# def natural_number(n):
+#     count = 0
+#     for i in range(1,n+1):
+#         if(n%i==0):
+#             count=count+1
+#     if count==2:
+#         print("prime number")   
+#     else:
+#         print("not a prime ")    
+# n=int(input("enter any value : "))
+# natural_number(n)
+

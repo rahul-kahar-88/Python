@@ -62,7 +62,19 @@ while(True):
     n=int(input("enter any number"))
     if n in (1,2,3,4,5):
         if n in (1,2,3,4):
-            pass
+            if n==1:
+             number=int(input("how many number you want to add"))
+             l=[]
+             for i in range(1,number+1):
+                value=int(input(f'enter{i} number'))
+                l.append(value)
+            sum=0
+            for i in l:
+             sum=sum+i
+             print(f'addition {l} is {sum}')
+
+
+            
         else:
            break
     else:

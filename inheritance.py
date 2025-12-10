@@ -77,18 +77,61 @@
 # ----------------------------------------------------------
 
 
-class father:
-    def home(self):
-        print(" home from father")
-        mother().home()
-        # mother.home(self)               #  ------ optional hai 
-class mother:
-    def home(self):
-        print("home from mother")
-class child(father,mother):             # mro - method resolution order
-    def home(self):
-        print("home from child")
-        super().home()
-obj=child()
-obj.home()
+# class father:
+#     def home(self):
+#         print(" home from father")
+#         mother().home()
+#         # mother.home(self)               #  ------ optional hai 
+# class mother:
+#     def home(self):
+#         print("home from mother")
+# class child(father,mother):             # mro - method resolution order
+#     def home(self):
+#         print("home from child")
+#         super().home()
+# obj=child()
+# obj.home()
 
+
+
+# hierarichical inheritance
+# ---------------------------------------------------------------------
+
+# class A:
+#     def home(self):
+#         print("home from A")
+#         B().home()
+# class B(A):
+#     def home(self):
+#         print("home from B")
+# class C(A):
+#     def home(self):
+#         print("home from C")
+#         super().home()
+# obj=C()
+# obj.home()
+
+
+
+
+
+
+# hybrid inheritance
+# -------------------------------------------------------------------------
+
+# class A:
+#     def home(self):
+#         print("home from A")
+        
+# class B(A):
+#     def home(self):
+#         print("home from B")
+#         super().home()
+# class C(A):
+#     def home(self):
+#         print("home from C")
+#         A().home()
+# class D(B,C):
+#     pass
+# obj=D()
+# obj.home()

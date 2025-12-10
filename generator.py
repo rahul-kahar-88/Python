@@ -6,6 +6,10 @@
 # print(id(list(x)))
 
 
+# yield - value leke aata hai bahar 
+# return - terminate kerta hai 
+
+
 
 
 # def natural_no(n):

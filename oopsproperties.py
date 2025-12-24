@@ -16,9 +16,10 @@
 
 
 # Encapsulation   ----- Access specifier / modifier
-#                        |----- public variable / method
-#                        |----- protected variable / method
-#                        |----- private variable / method
+#                         |----- public variable / method           -----|
+#                         |----- protected variable / method             |----- not use
+#                         |----- private variable / method          -----|
+
 
 
 # Inheritance  ------
@@ -30,9 +31,9 @@
  
 
 # Polymorphism  ------
-#               |-- Type                
-#               |    |-- compile type ----- no            
-#               |    |-- Runtime          
+#               |--- Type                
+#               |     |-- compile type ----- no            
+#               |     |-- Runtime          
 #               |                           
 #               |                   
-#               |-- overload                                      
+#               |--- overload ----- no                                     

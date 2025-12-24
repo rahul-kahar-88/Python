@@ -24,5 +24,15 @@
 # Inheritance  ------
 #               |---- Type                     
 #               |---- method overiding               
-#               |---- MRO - [  ]                 
-#                                         
+#               |---- MRO - [ method resolution order ]                 
+#               |---- super()
+ 
+ 
+
+# Polymorphism  ------
+#               |-- Type                
+#               |    |-- compile type ----- no            
+#               |    |-- Runtime          
+#               |                           
+#               |                   
+#               |-- overload                                      

@@ -15,4 +15,14 @@
 #              |---- concreate method
 
 
-# 
+# Encapsulation   ----- Access specifier / modifier
+#                        |----- public variable / method
+#                        |----- protected variable / method
+#                        |----- private variable / method
+
+
+# Inheritance  ------
+#               |---- Type                     
+#               |---- method overiding               
+#               |---- MRO - [  ]                 
+#                                         
